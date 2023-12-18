@@ -33,22 +33,7 @@ void interrupt_handler()
 	}
 	else if (state == PLAY)
 	{
-		/* Display a ball */
-		pos = (cnt < 16) ? cnt : 31 - cnt;
-		show_ball(pos);
-		if (++cnt >= 32)
-		{
-			cnt = 0;
-		}
-	}
-	else if (state == ENDING)
-	{
-	}
-}
-void main()
-{
-	while (1)
-	{
+		/* Display a ball */git config --global user.name "Your Name"
 		if (state == INIT)
 		{
 			lcd_init();
