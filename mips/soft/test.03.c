@@ -33,7 +33,7 @@ void interrupt_handler()
 	}
 	else if (state == PLAY)
 	{
-		/* Display a ball */git config --global user.name "Your Name"
+		/* Display a ball */
 		if (state == INIT)
 		{
 			lcd_init();
